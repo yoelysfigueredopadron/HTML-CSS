@@ -1,0 +1,13 @@
+table {
+    width: 500px;
+    height: 500px;
+    empty-cells: hide;
+    border-spacing: 15px 30px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #08d;
+    text-align: center;
+    font-size: 28px;
+}

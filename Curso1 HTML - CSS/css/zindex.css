@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+}
+
+#div1 {
+    background: #FC0;
+    top: 0px;
+    left: 0px;
+    z-index: 30;
+}
+
+#div2 {
+    background: #0FC;
+    top: 50px;
+    left: 50px;
+    z-index: 20;    
+}
+
+#div3 {
+    background: #AE0;
+    top: 100px;
+    left: 100px;
+    z-index: 10;    
+}

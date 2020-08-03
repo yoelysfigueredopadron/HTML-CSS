@@ -1,0 +1,10 @@
+ul {
+    font-size: 22px;
+    line-height: 150%;
+    padding:  0;
+    border: 1px solid red;
+    /* list-style-type: lower-alpha; */
+    /* list-style-image: url(../img/vineta.png); */
+    /* list-style-position: inside; */
+    list-style: lower-alpha inside;
+}

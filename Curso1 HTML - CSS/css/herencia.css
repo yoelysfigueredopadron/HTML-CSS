@@ -1,0 +1,13 @@
+body { font-family: Arial, Helvetica, sans-serif; }
+
+/* Selector padre 
+div p { background: #FF0; } */
+
+/* Selector hijo 
+div > p { background: #FF0; } */
+
+/* Selector Adyacente General 
+div ~ p { background: #FF0; } */
+
+/* Selector Adyacente Inmediato */
+div + p { background: #FF0; }

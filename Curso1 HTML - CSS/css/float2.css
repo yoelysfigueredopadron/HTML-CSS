@@ -1,0 +1,31 @@
+/* Float vs Display: Inline-block*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 800px;
+    padding: 20px;
+    border: 2px dashed #3498DB;
+    margin: 20px auto;
+    color: #888888;
+}
+
+div {
+    padding: 40px 0;
+    text-align: center;
+    width: 25%;
+    /* float: left; */
+    display: inline-block;
+}
+
+#div1 { background: #FC0; }
+#div2 { background: #9FA; }
+#div3 { background: #ADF; }
+#div4 { background: #EAF; }
+
+/* 
+Usamos la propiedad 'clear' en los párrafos para separar los mismo de los elementos div cuando estos usen la propiedad 'float' pero si usan la propiedad 'display' no es necesario
+p { clear: both; } 
+*/
