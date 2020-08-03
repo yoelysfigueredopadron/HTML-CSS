@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elementos - First Letter y First Line</title>
+    <script src="js/prefixfree.js"></script>
+    <style>
+        p {
+            color: #000;
+            font-size: 20px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        p::first-letter {
+            font-size: 30px;
+            color: #F00;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+        p::first-line {
+            color: #0FC;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate. Repellat ipsa tempore obcaecati minima qui eos nesciunt velit quasi quam dolorem quia odit a maiores voluptatem, modi, cumque perspiciatis ratione praesentium nemo non ab earum adipisci recusandae? Asperiores quibusdam natus delectus reiciendis maxime quidem repudiandae praesentium qui velit minus ipsam a inventore recusandae nobis ullam dolorem eveniet veritatis facilis, in dolor voluptatem ea accusamus voluptatum. Commodi laborum aliquid accusamus consectetur consequuntur odio vitae neque quae, autem necessitatibus! Hic accusantium obcaecati ipsam exercitationem quo doloribus, eveniet, reiciendis facilis pariatur, aut dolorem corrupti sit velit nisi dolore earum tempore nemo? Asperiores!</p>
+    </article>
+</body>
+</html>

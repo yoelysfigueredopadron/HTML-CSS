@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformaciones 3D</title>
+    <script src="js/prefixfree.js"></script>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: #FF0;
+            margin: 40px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.3);
+            text-align: center;
+            font: bold 16px arial;
+            line-height: 100px;
+            display: inline-block;
+            transition: all 1s;
+        }
+        #div1:hover {
+            transform: perspective(300px) rotateX(50deg) scale3d(2,1,1) translate3d(0,50px,0);
+        }
+        #div2:hover {
+            transform: perspective(300px) rotateY(-50deg) scale3d(1,2,1) translate3d(0,0,-50px);
+        }
+        #div3:hover {
+            transform: perspective(300px) rotateZ(50deg) scale3d(1,1,2) translate3d(-50px,0,0);
+        }
+        #div4:hover {
+            transform: perspective(300px) rotateX(50deg) rotateY(-50deg) rotateZ(50deg) scale3d(3,2,1.5) translate3d(-50px,0,0);
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">X</div>
+    <div id="div2">Y</div>
+    <div id="div3">Z</div>
+    <div id="div4">XYZ</div>
+</body>
+</html>
